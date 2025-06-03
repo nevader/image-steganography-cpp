@@ -58,16 +58,12 @@ The project follows the MVC (Model-View-Controller) pattern:
 
 1. Clone the repository:
 
-bash
-
 ```bash
 git clone https://github.com/yourusername/image-steganography-cpp.git
 cd image-steganography-cpp
 ```
 
 2. Create build directory and compile:
-
-bash
 
 ```bash
 mkdir build
@@ -78,8 +74,6 @@ make
 
 Or use CMake directly:
 
-bash
-
 ```bash
 cmake -B build
 cmake --build build
@@ -89,8 +83,6 @@ cmake --build build
 
 After building, the executable will be in the `build` directory:
 
-bash
-
 ```bash
 ./build/steganography
 ```
@@ -98,8 +90,6 @@ bash
 ## 📝 Usage
 
 ### Command Syntax
-
-bash
 
 ```bash
 steganography [options] <path-to-image>
@@ -120,23 +110,17 @@ steganography [options] <path-to-image> "message-to-encrypt"
 
 #### 1. Hide a Message
 
-bash
-
 ```bash
 steganography -e beach.bmp "This is my secret message!"
 ```
 
 #### 2. Extract a Hidden Message
 
-bash
-
 ```bash
 steganography -d beach.bmp
 ```
 
 #### 3. Check Image Information
-
-bash
 
 ```bash
 steganography -i beach.bmp
@@ -159,8 +143,6 @@ Last modification time: Tue Dec 20 15:30:00 2022
 ```
 
 #### 4. Check Message Capacity
-
-bash
 
 ```bash
 steganography -c image.ppm "Can this message fit?"
@@ -259,5 +241,3 @@ Course: Programming in C and C++ Languages (PJC)
 Semester: Winter 2022/2023
 
 ---
-
-_Note: This is an educational implementation of steganography. For production use, consider established cryptographic libraries with proper security measures._

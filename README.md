@@ -2,7 +2,9 @@
 
 A command-line steganography application that hides secret messages within images using the LSB (Least Significant Bit) technique. Developed as part of the Programming in C and C++ Languages (PJC) course at PJATK, Winter 2022/2023.
 
-Show Image Show Image Show Image
+![asd](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![License](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Build Status](https://img.shields.io/badge/Steganography-FF6B6B?style=for-the-badge&logo=shield&logoColor=white)
 
 ## 📋 Overview
 

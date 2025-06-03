@@ -225,14 +225,6 @@ This project was developed as part of the Programming in C and C++ Languages (PJ
 
 This is an academic project. Feel free to use it as a reference for learning, but please write your own implementation if you're working on a similar assignment.
 
-## ⚠️ Disclaimer
-
-This tool is for educational purposes only. Users are responsible for complying with applicable laws regarding privacy and data hiding in their jurisdiction.
-
-## 📄 License
-
-This project is part of academic coursework. Please refer to your institution's academic integrity policies before using this code.
-
 ## 👤 Author
 
 **Krzysztof Przybysz**  
